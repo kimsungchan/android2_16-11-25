@@ -24,7 +24,7 @@
         android:textSize="@android:dimen/app_icon_size" />
 
     <CheckBox
-        android:text="startok"
+        android:text="start-ok"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -47,7 +47,8 @@
 
         <RadioGroup
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent"
+            android:id="@+id/radioGroup" >
 
             <TextView
                 android:text="favorite image"
