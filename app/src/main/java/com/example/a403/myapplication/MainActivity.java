@@ -83,7 +83,11 @@ public class MainActivity extends AppCompatActivity {
         b3.setOnClickListener(new Button.OnClickListener(){
             public void onClick(View v){
                 l.setVisibility(View.INVISIBLE);
-                
+                s1.setChecked(false);
+                r1.setChecked(false);
+                r2.setChecked(false);
+                r3.setChecked(false);
+                i.setVisibility(View.INVISIBLE);
             }
         });
 
